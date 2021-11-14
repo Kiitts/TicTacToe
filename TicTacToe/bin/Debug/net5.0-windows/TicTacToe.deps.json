@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TicTacToe/1.0.0": {
+        "runtime": {
+          "TicTacToe.dll": {}
+        },
+        "resources": {
+          "zh-Hans-MO/TicTacToe.resources.dll": {
+            "locale": "zh-Hans-MO"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TicTacToe/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -33,11 +33,14 @@ namespace TicTacToe
 
         private void MainMenu_FormClosed(object sender, FormClosedEventArgs e)
         {
+            // if the form 1 will be closed the whole application will shutdown
             Application.Exit();
         }
 
         private void player2Btn_Click(object sender, EventArgs e)
         {
+            // after clicking button we will be redirect to another form which is the gaming area
+            // this is only for 2 players hotseated games which means this can be only played in 1 device
             player2Game = true;
             this.Hide();
             gameArea.Show();

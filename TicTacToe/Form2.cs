@@ -41,17 +41,17 @@ namespace TicTacToe
                 if (firstTurn)
                 {
                     // if it's players 1 turn cross will be the input
-                    rc.Image = Image.FromFile("../../img/cross.png");
+                    rc.Image = Properties.Resources.cross;
                     rcv = "cross";
                     firstTurn = false;
-                    whoNext.Image = Image.FromFile("../../img/circle.png");
+                    whoNext.Image = Properties.Resources.circle;
                 }
                 else
                 {
-                    rc.Image = Image.FromFile("../../img/circle.png");
+                    rc.Image = Properties.Resources.circle;
                     rcv = "circle";
                     firstTurn = true;
-                    whoNext.Image = Image.FromFile("../../img/cross.png");
+                    whoNext.Image = Properties.Resources.cross;
                 }
             }
         }
@@ -71,7 +71,7 @@ namespace TicTacToe
                     rcv[i, j] = "";
                 }
             }
-            whoNext.Image = Image.FromFile("../../img/cross.png");
+            whoNext.Image = Properties.Resources.cross;
             firstTurn = true;
             if(!winningReset)
             {

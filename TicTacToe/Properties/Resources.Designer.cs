@@ -103,26 +103,6 @@ namespace TicTacToe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Player1_Button {
-            get {
-                object obj = ResourceManager.GetObject("Player1_Button", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Player2_Button {
-            get {
-                object obj = ResourceManager.GetObject("Player2_Button", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap resetButton {
             get {
                 object obj = ResourceManager.GetObject("resetButton", resourceCulture);
@@ -156,6 +136,16 @@ namespace TicTacToe.Properties {
         internal static System.Drawing.Bitmap resetButton3 {
             get {
                 object obj = ResourceManager.GetObject("resetButton3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Start_Button {
+            get {
+                object obj = ResourceManager.GetObject("Start_Button", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

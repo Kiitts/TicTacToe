@@ -21,4 +21,3 @@ C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\TicTacToe\TicTacToe\TicTacT
 C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\TicTacToe\TicTacToe\TicTacToe\obj\Debug\net5.0-windows\TicTacToe.pdb
 C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\TicTacToe\TicTacToe\TicTacToe\obj\Debug\net5.0-windows\TicTacToe.genruntimeconfig.cache
 C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\TicTacToe\TicTacToe\TicTacToe\obj\Debug\net5.0-windows\TicTacToe.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\TicTacToe\TicTacToe\TicTacToe\obj\Debug\net5.0-windows\TicTacToe.AiSettings.resources

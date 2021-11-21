@@ -20,7 +20,10 @@ namespace TicTacToe
         {
             InitializeComponent();
         }
-
+        private void resetScore_Click(object sender, EventArgs e)
+        {
+            Reset(false);
+        }
         private void goBack_Click(object sender, EventArgs e)
         {
             // clicking back will reset all the data created in the gamearea and go back to main menu form
@@ -189,9 +192,5 @@ namespace TicTacToe
             checkWinning();
         }
 
-        private void resetScore_Click(object sender, EventArgs e)
-        {
-            Reset(false);
-        }
     }
 }

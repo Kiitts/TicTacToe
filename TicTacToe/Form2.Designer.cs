@@ -51,6 +51,7 @@ namespace TicTacToe
             this.player1Score = new System.Windows.Forms.Label();
             this.player2Score = new System.Windows.Forms.Label();
             this.resetScore = new System.Windows.Forms.Button();
+            this.aiUpdate = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.r1c1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.r2c2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.r1c2)).BeginInit();
@@ -277,12 +278,22 @@ namespace TicTacToe
             this.resetScore.UseVisualStyleBackColor = true;
             this.resetScore.Click += new System.EventHandler(this.resetScore_Click);
             // 
+            // aiUpdate
+            // 
+            this.aiUpdate.AutoSize = true;
+            this.aiUpdate.Font = new System.Drawing.Font("Trajan Pro 3", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.aiUpdate.Location = new System.Drawing.Point(377, 51);
+            this.aiUpdate.Name = "aiUpdate";
+            this.aiUpdate.Size = new System.Drawing.Size(0, 20);
+            this.aiUpdate.TabIndex = 21;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SandyBrown;
             this.ClientSize = new System.Drawing.Size(511, 489);
+            this.Controls.Add(this.aiUpdate);
             this.Controls.Add(this.resetScore);
             this.Controls.Add(this.player2Score);
             this.Controls.Add(this.player1Score);
@@ -349,5 +360,6 @@ namespace TicTacToe
         private System.Windows.Forms.Label player1Score;
         private System.Windows.Forms.Label player2Score;
         private System.Windows.Forms.Button resetScore;
+        private System.Windows.Forms.Label aiUpdate;
     }
 }
